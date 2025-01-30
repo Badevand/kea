@@ -7,8 +7,7 @@ public abstract class Trip
     protected String country;
     protected String transportation;
 
-    public trip(){}
-    public trip(int duration, int travelers, String country, String transportation)
+    public Trip(int duration, int travelers, String country, String transportation)
     {
         this.duration = duration;
         this.travelers = travelers;
@@ -16,4 +15,5 @@ public abstract class Trip
         this.transportation = transportation;
     }
 
+    public abstract void displayTrip();
 }
