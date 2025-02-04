@@ -27,7 +27,7 @@ public class Main
                     listTrips();
                     break;
                 case 3:
-                    System.out.println("Goodbye!");
+                    System.out.println("kthxbai!");
                     break;
                 default:
                     System.out.println("Invalid option, please try again.");
